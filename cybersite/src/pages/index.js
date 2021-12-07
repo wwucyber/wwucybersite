@@ -16,9 +16,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            Announcements 🎺
           </Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          {  <Link
+            className="button button--secondary button--lg"
+            to="https://discord.com/invite/hXs2NgTYP5">
+            Join 🚪
+          </Link> }
         </div>
       </div>
     </header>
