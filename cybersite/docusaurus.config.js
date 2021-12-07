@@ -143,7 +143,7 @@ const config = {
               },
               {
                   label: 'Contact Us',
-                  href: 'mailto:cscwwu@gmail.com',
+                  to: '/contact',
               },
               {
                 label: 'GitHub',
