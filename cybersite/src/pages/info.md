@@ -7,4 +7,4 @@ We also organize and compete in various cybersecurity competitions. Notable comp
  - NSA's Codebreaker Competition
 and many more!
 
-This year we're also working on creating an extensive set of documentation surrounding cybersecurity defense. You can see our progress at [docs](/docs/intro).
+This year we're also working on creating an extensive set of documentation surrounding cybersecurity defense. You can see our progress at [docs](/docs/welcome).
