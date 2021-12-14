@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.jpg',
   organizationName: 'wwucyber', // Usually your GitHub org/user name.
   projectName: 'wwucyber.github.io', // Usually your repo name.
   deploymentBranch: 'main',
@@ -67,7 +67,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Home Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.svg',
         },
         items: [
           {
