@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WWU Cybersecurity Club',
-  tagline: 'Welcome to the website!',
+  tagline: 'Welcome to our website!',
   url: 'https://wwucyber.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

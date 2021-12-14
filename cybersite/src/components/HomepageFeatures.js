@@ -59,11 +59,11 @@ export default function HomepageFeatures() {
         <div className="row">
                 <div className="col text--center">
                     <h2>Meeting 1</h2>
-                    <h3>Info on this meeting</h3>
+                    <h3>Cybersecurity news over the break.</h3>
                     <h2>Meeting 2</h2>
-                    <h3>Info on this meeting</h3>
+                    <h3>Internship advice and how-to's</h3>
                     <h2>Meeting 3</h2>
-                    <h3>Info on this meeting</h3>
+                    <h3>Topic meeting on a topic to be decided soon</h3>
                 </div>
             </div>
     </div>
