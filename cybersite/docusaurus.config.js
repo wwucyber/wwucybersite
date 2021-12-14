@@ -85,19 +85,19 @@ const config = {
               items: [
                   {
                       label: 'About The Club',
-                      href: 'info',
+                      href: '/info',
                   },
                   {
                       label: 'Officers',
-                      href: 'officers',
+                      href: '/officers',
                   },
                   {
                       label: 'About WWU Cybersecurity',
-                      href: 'about_wwu'
+                      href: '/about_wwu'
                   },
                   {
                       label: 'Contact Us',
-                      href: 'contact',
+                      href: '/contact',
                   },
               ],
           },
