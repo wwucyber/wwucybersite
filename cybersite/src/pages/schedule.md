@@ -1,1 +1,1 @@
-Schedule for the quarter will be posted here
+Schedule for the quarter will be posted here regularly
