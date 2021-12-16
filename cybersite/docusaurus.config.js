@@ -101,11 +101,16 @@ const config = {
                   },
               ],
           },
-          /*{
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+          {
+            href: '/blog',
+            label: 'Announcements',
             position: 'right',
-          }, */
+          },
+          {
+            href: 'https://discord.com/invite/hXs2NgTYP5',
+            label: 'Discord',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -113,12 +118,16 @@ const config = {
         //style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs and Tutorials',
                 to: '/docs/welcome',
               },
+              {
+                  label: 'Blueteam Cheat Sheets',
+                  to: '/docs/cheatsheet/intro',
+              }
             ],
           },
           {
@@ -138,7 +147,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Posts',
                 to: '/blog',
               },
               {
