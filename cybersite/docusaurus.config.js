@@ -124,10 +124,10 @@ const config = {
                 label: 'Docs and Tutorials',
                 to: '/docs/welcome',
               },
-              {
-                  label: 'Blueteam Cheat Sheets',
-                  to: '/docs/cheatsheet/intro',
-              }
+            //  {
+             //     label: 'Blueteam Cheat Sheets',
+               //   to: '/docs/cheatsheet/intro',
+              //}
             ],
           },
           {
