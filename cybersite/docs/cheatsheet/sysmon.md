@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-title: INSERT_PROGRAM_NAME_HERE
+title: sysmon
 ---
 
 ## Description:
