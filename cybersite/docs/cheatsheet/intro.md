@@ -8,19 +8,19 @@ Welcome to our Blue Team Cheat Sheet. We initally created this resource to help 
 We plan to have cheat sheets on at least the following tools/utilities:  
 
 Linux and Windows:
- - [nmap](docs/cheatsheet/nmap/)
+ - [nmap](docs/cheatsheet/Windows+Linux/nmap/)
 
 Linux:
- - [sudo](docs/cheatsheet/sudo)
- - [ufw](docs/cheatsheet/ufw)
- - [iptables](docs/cheatsheet/iptables)
- - [netcat](docs/cheatsheet/netcat)
- - [shodan cli](docs/cheatsheet/shodan)
- - [bash one liners](docs/cheatsheet/bash)
- - [tcpdump](docs/cheatsheet/tcpdump)
+ - [sudo](docs/cheatsheet/Linux/sudo)
+ - [ufw](docs/cheatsheet/Linux/ufw)
+ - [iptables](docs/cheatsheet/Linux/iptables)
+ - [netcat](docs/cheatsheet/Linux/netcat)
+ - [shodan cli](docs/cheatsheet/Linux/shodan)
+ - [bash one liners](docs/cheatsheet/Linux/bash)
+ - [tcpdump](docs/cheatsheet/Linux/tcpdump)
 
 Windows:
- - [Sysmon](docs/cheatsheet/sysmon)
- - [Sysinternals Suite](docs/cheatsheet/sysinternal)
- - [Powershell cmdlets](docs/cheatsheet/powershellcmdlets)
- - [Group Policy](docs/cheatsheet/grouppolicy)
+ - [Sysmon](docs/cheatsheet/Windows/sysmon)
+ - [Sysinternals Suite](docs/cheatsheet/Windows/sysinternal)
+ - [Powershell cmdlets](docs/cheatsheet/Windows/powershellcmdlets)
+ - [Group Policy](docs/cheatsheet/Windows/grouppolicy)
