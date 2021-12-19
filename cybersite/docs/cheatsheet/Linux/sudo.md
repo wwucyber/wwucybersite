@@ -4,19 +4,20 @@ title: sudo
 ---
 
 ## Description:
-Write a small description about this program/tool. Include what it's used for and what operating system it works on. 
+Sudo is a command line program that allows users to be given the ability to run certain (or all) commands  as root. 
 
 ## Installation
-If not built in, include how to install here. If built in, say so here.
+Sudo is included into every major linux distro. If you need to update follow these steps:
 ```bash
-git clone URL_HERE 
-or 
-apt-get PACKAGE_NAME_HERE
+sudo apt-get update
+sudo apt-get upgrade
+``` 
+## Configuration:
+### Add User to Sudo File
+```bash
+sudo /usr/sbin/sudoers
 ```
-Insert extra steps for installing if needed here. 
-
 ## Commands:
-
 ### Insert Command Name Here. Make sure to include what it does (nmap scan all udp ports, ufw close all ports, etc)
 ```bash
 INSERT ACTUAL COMMAND HERE
