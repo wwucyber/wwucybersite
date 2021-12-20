@@ -102,7 +102,7 @@ const config = {
               ],
           },
           {
-            href: '/blog',
+            href: '/blog/tags/announcement',
             label: 'Announcements',
             position: 'right',
           },

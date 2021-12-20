@@ -2,7 +2,7 @@
 slug: website_migration
 title: Website Migration
 authors: nathan
-tags: [website, information]
+tags: [website, information, announcement]
 ---
 
 Things might look a little different around here, we're proud to announce we're migrating websites!
