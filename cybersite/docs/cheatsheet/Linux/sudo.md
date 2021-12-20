@@ -17,8 +17,44 @@ sudo apt-get upgrade
 ```bash
 sudo /usr/sbin/sudoers
 ```
-## Commands:
-### Insert Command Name Here. Make sure to include what it does (nmap scan all udp ports, ufw close all ports, etc)
-```bash
-INSERT ACTUAL COMMAND HERE
+#### Example: Grant User Permission to Run All Commands as with sudo (make sure you 100% trust this user)
 ```
+insert_username ALL=(ALL) ALL
+```
+
+### Configure User to Run Certain Commands with sudo
+```
+User_name Machine_name=(Effective_user) command
+```
+`user_name` = the name of the sudo user  
+`machine_name` = host name of machine  
+`effective_user` = users that are allowed to execute said commands  
+`command` = command users are allowed to run with sudo  
+
+#### Allow user `nathan` to execute any command with sudo on host `ubuntu`
+`nathan ubuntu=(ALL) ALL`
+#### Allow user `nathan` to execute `ssh` with sudo on host `ubuntu`
+`nathan ubuntu=(nathan) ssh` 
+
+## Commands:
+### List Sudo Permissions
+```bash
+sudo -l
+```
+### Reset sudo timestamp (ticket). 
+#### This forces the user to input sudo password next time they run the command
+```bash
+sudo -K
+```
+### Run a command as another user or group (can ommit group)
+```bash
+sudo -u user -g group id -a
+```
+### Launch default shell with sudo permissions
+```bash
+sudo -i
+```
+
+#### References:
+ - https://cheat.sh/sudo
+ - https://neverendingsecurity.wordpress.com/2015/04/13/sudo-cheatsheet/
