@@ -83,3 +83,6 @@ nmap -oG OUTPUT_FILE_NAME TARGET_IP
 ```bash
 nmap -oA OUTPUT_FILE_NAME TARGET_IP
 ```
+
+#### References:
+ - https://www.stationx.net/nmap-cheat-sheet/
