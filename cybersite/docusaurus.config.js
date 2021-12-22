@@ -125,7 +125,7 @@ const config = {
                 to: '/docs/welcome',
               },
               {
-                  label: 'Blueteam Cheat Sheets',
+                  label: 'Cheat Sheets',
                   to: '/docs/cheatsheet/intro',
               }
             ],
