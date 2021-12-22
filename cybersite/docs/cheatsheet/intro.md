@@ -18,6 +18,8 @@ Linux:
  - [shodan cli](Linux/shodan)
  - [bash one liners](Linux/bash)
  - [tcpdump](Linux/tcpdump)
+ - [curl](Linux/curl)
+ - [sqsh](Linux/sqsh)
 
 Windows:
  - [Sysmon](Windows/sysmon)
