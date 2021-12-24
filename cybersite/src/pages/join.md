@@ -28,4 +28,4 @@ Thank you – we can always use more help. All of the above apply with the stipu
 
 ## Club Rules
 
-test
+Insert rules here, maybe a link to the constitution on the win page?
