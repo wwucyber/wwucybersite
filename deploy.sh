@@ -2,8 +2,7 @@
  
 read -p "Message: " msg
 
-npm run build
-firebase deploy
+yarn build
 
 git add .
 git commit -m "$msg"
