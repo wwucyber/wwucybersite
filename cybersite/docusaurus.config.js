@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.jpg',
+  favicon: 'img/favicon.svg',
   organizationName: 'wwucyber', // Usually your GitHub org/user name.
   projectName: 'wwucyber.github.io', // Usually your repo name.
   deploymentBranch: 'main',
@@ -25,12 +25,9 @@ const config = {
       {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
+        highlightSearchTermsOnTargetPage: true,
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
         language: ["en"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
       },
     ],
   ],
@@ -61,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
         colorMode: {
-            defaultMode: 'dark',
+            defaultMode: 'light',
         },
       navbar: {
         title: 'Home',
@@ -132,11 +129,24 @@ const config = {
             ],
           },
           {
+            title: 'Resources',
+            items: [
+              {
+                label: 'WWUCSC on GitHub',
+                href: 'https://github.com/wwucyber',
+              },
+              {
+                label: 'Study Cybersecurity at WWU',
+                href: 'https://www.wwu.edu/majors/cybersecurity',
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/wwucyber',
+                label: 'What is Cybersecurity?',
+                href: 'https://www.ibm.com/topics/cybersecurity',
               },
             ],
           },
