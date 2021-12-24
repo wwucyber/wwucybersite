@@ -95,6 +95,7 @@ const config = {
               ],
           },
           {to: '/blog/tags/announcement', label: 'Announcements', position: 'right'},
+          {to: '/achievements', label: 'Achievements', position: 'right'},
           {to: '/contact', label: 'Contact Us', position: 'right'},
         ],
       },

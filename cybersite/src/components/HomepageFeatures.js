@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/user-svgrepo-com.svg').default,
     description: (
       <>
-        Record of our recent activity may be found <a href="/blog"><b>here</b></a>. Ensure you don't miss anything <a href="/blog/tags/announcement"><b>important</b></a> by joining our <a href="/blog"><b>Discord</b></a>.
+        Record of our recent activity may be found <a href="/blog"><b>here</b></a>. Ensure you don't miss anything <a href="/blog/tags/announcement"><b>important</b></a> by joining our <a href="https://discord.gg/d2QWwKRtkg"><b>Discord</b></a>.
       </>
     ),
   },

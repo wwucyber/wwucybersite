@@ -6,28 +6,27 @@ Great – we would love to have you on board!
 
 ## FAQs
 
-> I'd like to participate as a *member* of the club
+> What are the requirements for club membership?
 
-You must only be currently enrolled as a student at Western Washington University and agree to the [club rules](/join#club-rules). You do **not** need to be part of the Cybersecurity or Computer Science departments and there is no class restriction — whether you are a freshman or post-graduate, you are welcome here.
+To join the Cybersecurity Club, you must be currently enrolled as a student at Western Washington University and agree to the [club rules](/membership-rules). You do **not** need to be part of the Cybersecurity or Computer Science departments and there is no class restriction — whether you are a freshman or post-graduate, you are welcome here.
 
-> *I have little or no knowledge of cybersecurity*
+> What degree of cybersecurity proficiency is required for membership?
 
-That's okay, no prior cybersecurity experience or knowledge is required to join and we encourage you to do so. This club exists to serve as an oppertunity for everyone to further their knowledge of security topics regardless of skill level.
+No prior cybersecurity experience or knowledge is required to join and we encourage you to consider involvement regardless of skill level. This club exists to serve as an opportunity for everyone to further their knowledge of security topics regardless of expertise.
 
-> *I have not involved myself in WWU extracurriculars before. How do I join?*
+> I have not involved myself in WWU extracurriculars before. How do I join?
 
 We're humbled that you are considering our club. The process is simple:
 - Visit the [club page on the Western Involvement Network](https://win.wwu.edu/organization/cyber) and register as a member.
 - Join the [club Discord community](https://discord.com/invite/hXs2NgTYP5).
 - Attend [meetings](/schedule) as your availability permits.
 
-> *The meeting schedule is incompatible with my own schedule — can I still be involved in other ways?*
+> The current meeting schedule is incompatible with my personal schedule. Can I still be involved in other ways?
 
-Yes! As students, we relate to the struggle of fitting other functions in around our class, work, and personal lives. While we prefer members attend as many meetings as they can, meetings are not a requirement for membership and we hold various cybersecurity events throughout the quarter at times unrelated to the posted meeting schedule. Keep an eye on the [club announcements](/blog/tags/announcement) to staty up to date with all events and meeting times.
+Certainly — as students, we relate to the struggle of fitting other functions in around our class, work, and personal lives. While we prefer members attend as many meetings as they can, meetings are not a requirement for membership and we hold various cybersecurity events throughout the quarter at times unrelated to the posted meeting schedule. Keep an eye on the [club announcements](/blog/tags/announcement) to stay up to date with all events and meeting times.
 
-> I'd like to participate as an *officer* of the club
-Thank you – we can always use more help. All of the above apply with the stipulation that club officers must also !!!.
+Further, we poll students at the beginning of each academic quarter for the times they are available to determine which times work for the greatest number of those interested. Please be sure to respond to that poll when it is published in the club Discord server.
 
-## Club Rules
+> What are the requirements for leadership role(s)?
 
-Insert rules here, maybe a link to the constitution on the win page?
+Thank you – we can always use more help. All of the above apply with the stipulation that club officers must also [someone insert something here, I forgot the officer requirements].
