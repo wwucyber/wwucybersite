@@ -16,14 +16,14 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/blog">
-            Announcements 🎺
+            to="/blog/tags/announcement">
+            Announcements
           </Link>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {  <Link
             className="button button--secondary button--lg"
             to="/join">
-            Join 🚪
+            Join the Club
           </Link> }
         </div>
       </div>

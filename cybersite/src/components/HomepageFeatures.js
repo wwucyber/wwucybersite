@@ -4,39 +4,37 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Security Documentation',
+    Svg: require('../../static/img/computer-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        View our <a href="docs/welcome"><b>Docs</b></a> section, which features competiton-oriented infosec reference material for use during club events.
       </>
     ),
-    title: 'Next One',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+  },
+  {
+    title: 'Get Involved',
+    Svg: require('../../static/img/group-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly1.
+        Interested in <a href="/join"><b>joining</b></a> the club? Take part in our weekly security meetings and/or compete on behalf of the university.
+      </>
+    ),
+  },
+  {
+    title: 'Stay Up to Date',
+    Svg: require('../../static/img/user-svgrepo-com.svg').default,
+    description: (
+      <>
+        Record of our recent activity may be found <a href="/blog"><b>here</b></a>. Ensure you don't miss anything <a href="/blog"><b>important</b></a> by joining our <a href="/blog"><b>Discord</b></a>.
       </>
     ),
   },
 ];
 
-const Events = [
-    {
-        description: (
-          <>
-            Docusaurus was designed from the ground up to be easily installed and
-            used to get your website up and running quickly1.
-          </>
-        ),
-      },
-]
-
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--2')}>
+    <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
@@ -50,22 +48,14 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <div className="container">
+    <section className={styles.features}>
+      <div className="container">
         <div className="row">
-            <div className="col text--center">
-                <h1>Upcoming Events 📅</h1>
-            </div>
+          {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
         </div>
-        <div className="row">
-                <div className="col text--center">
-                    <h2>Meeting 1</h2>
-                    <h3>Cybersecurity news over the break.</h3>
-                    <h2>Meeting 2</h2>
-                    <h3>Internship advice and how-to's</h3>
-                    <h2>Meeting 3</h2>
-                    <h3>Topic meeting on a topic to be decided soon</h3>
-                </div>
-            </div>
-    </div>
+      </div>
+    </section>
   );
 }
