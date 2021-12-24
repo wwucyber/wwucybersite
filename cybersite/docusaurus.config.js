@@ -135,14 +135,6 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Posts',
-                to: '/blog',
-              },
-              {
-                  label: 'Contact Us',
-                  to: '/contact',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/wwucyber',
               },
