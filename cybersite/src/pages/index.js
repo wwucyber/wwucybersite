@@ -22,7 +22,7 @@ function HomepageHeader() {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {  <Link
             className="button button--secondary button--lg"
-            to="https://discord.com/invite/hXs2NgTYP5">
+            to="/join">
             Join 🚪
           </Link> }
         </div>

@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WWU Cybersecurity Club',
-  tagline: 'Welcome to our website!',
+  tagline: 'Website of the WWU Cybersecurity Club',
   url: 'https://wwucyber.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -93,24 +93,12 @@ const config = {
                   },
                   {
                       label: 'About WWU Cybersecurity',
-                      href: '/about_wwu'
-                  },
-                  {
-                      label: 'Contact Us',
-                      href: '/contact',
+                      href: 'https://www.wwu.edu/majors/cybersecurity'
                   },
               ],
           },
-          {
-            href: '/blog/tags/announcement',
-            label: 'Announcements',
-            position: 'right',
-          },
-          {
-            href: 'https://discord.com/invite/hXs2NgTYP5',
-            label: 'Discord',
-            position: 'right',
-          },
+          {to: '/blog/tags/announcement', label: 'Announcements', position: 'right'},
+          {to: '/contact', label: 'Contact Us', position: 'right'},
         ],
       },
       footer: {
@@ -121,13 +109,13 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Docs and Tutorials',
-                to: '/docs/welcome',
+                label: 'Utility Cheat Sheets',
+                to: '/docs/cheatsheet/intro',
               },
               {
-                  label: 'Cheat Sheets',
-                  to: '/docs/cheatsheet/intro',
-              }
+                label: 'System Hardening Checklist',
+                to: '/docs/checklist/intro',
+              },
             ],
           },
           {
@@ -138,7 +126,7 @@ const config = {
                 href: 'https://win.wwu.edu/organization/cyber',
               },
               {
-                label: 'Discord',
+                label: 'Discord Server',
                 href: 'https://discord.com/invite/hXs2NgTYP5',
               },
             ],
@@ -161,7 +149,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WWU Cybersecurity Club. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WWU Cybersecurity Club • Generated with <a href="https://docusaurus.io"> Docusaurus </a> • Last Built ${new Date().toJSON().slice(0,10).replace(/-/g,'.')} UTC`,
       },
       prism: {
         theme: lightCodeTheme,

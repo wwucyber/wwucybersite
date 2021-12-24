@@ -2,7 +2,7 @@
 
 [Docusaurus Documentation](https://docusaurus.io/).
 
-### Setup Yarn
+### Set Up Yarn
 Install `npm`; then, run `yarn` in `wwucybersite/cybersite`.
 
 ### Live Server
