@@ -1,6 +1,6 @@
 ---
-sidebar_position: 12
-title: sqsh
+sidebar_position: 10
+title: gobuster
 ---
 
 ## Description:

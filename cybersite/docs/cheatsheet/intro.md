@@ -8,18 +8,21 @@ Welcome to our Cybersecurity Cheat Sheet. We initally created this resource to h
 We plan to have cheat sheets on at least the following tools/utilities:  
 
 Linux and Windows:
- - [nmap](Windows+Linux/nmap/)
+ - [NMAP](Windows+Linux/nmap/)
 
 Linux:
- - [sudo](Linux/sudo)
- - [ufw](Linux/ufw)
- - [iptables](Linux/iptables)
- - [netcat](Linux/netcat)
- - [shodan cli](Linux/shodan)
- - [bash one liners](Linux/bash)
- - [tcpdump](Linux/tcpdump)
- - [curl](Linux/curl)
- - [sqsh](Linux/sqsh)
+ - [Sudo](Linux/sudo)
+ - [UFW](Linux/ufw)
+ - [Iptables](Linux/iptables)
+ - [Netcat](Linux/netcat)
+ - [Shodan Cli](Linux/shodan)
+ - [Bash](Linux/bash)
+ - [Tcpdump](Linux/tcpdump)
+ - [Curl](Linux/curl)
+ - [Gobuster](Linux/gobuster)
+ - [sqlmap](Linux/sqlmap)
+ - [Nikto](Linux/nikto)
+ 
 
 Windows:
  - [Sysmon](Windows/sysmon)

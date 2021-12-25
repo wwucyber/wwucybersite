@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-title: Netcat
+title: sqlmap
 ---
 
 ## Description:
