@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'WWU Cybersecurity Club',
   tagline: 'Official Website of the WWU Cybersecurity Club',
-  url: 'https://wwucyber.github.io',
+  url: 'https://wwucyber.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -157,7 +157,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['powershell'],
+        additionalLanguages: ['powershell'], //add support for powershell code highlighting
       },
     }),
 };
