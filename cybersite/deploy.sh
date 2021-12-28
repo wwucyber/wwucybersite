@@ -3,6 +3,7 @@
 read -p "Message: " msg
 
 yarn build
+npm run deploy
 
 git add .
 git commit -m "$msg"

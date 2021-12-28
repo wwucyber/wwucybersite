@@ -57,9 +57,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-        colorMode: {
-            defaultMode: 'light',
-        },
+      colorMode: {
+          defaultMode: 'light',
+      },
+      announcementBar: {
+        id: 'announcementBar',
+        content: `<b>NOTICE: <i>wwucyber.com</i> is currently under construction. By reading this banner, you acknowledge that any and all information hosted under <i>wwucyber.com</i> is subject to significant change in content, appearance, and/or structure. Thank you for your patience.</b>`,
+        backgroundColor: '#ff5f15',
+        textColor: '#000',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Home',
         logo: {
