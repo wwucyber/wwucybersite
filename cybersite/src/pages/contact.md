@@ -1,4 +1,6 @@
-<div className="annoyingStickyBanner"><b>NOTICE: This page is currently under construction. Please be advised that the information here is subject to significant change in content, appearance, and/or structure. Thank you for your patience.</b></div>
+--- 
+hide_table_of_contents: true
+---
 
 # Contact Us
 ---

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WWU Cybersecurity Club',
-  tagline: 'Official Website of the WWU Cybersecurity Club',
+  tagline: 'Infosec Meetings, Competitions, Events, and More',
   url: 'https://wwucyber.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,14 +59,9 @@ const config = {
     ({
       colorMode: {
           defaultMode: 'light',
+          disableSwitch: true,
       },
-      announcementBar: {
-        id: 'announcementBar',
-        content: `<b>NOTICE: <i>wwucyber.com</i> is currently under construction. By reading this banner, you acknowledge that any and all information hosted under <i>wwucyber.com</i> is subject to significant change in content, appearance, and/or structure. Thank you for your patience.</b>`,
-        backgroundColor: '#ff5f15',
-        textColor: '#000',
-        isCloseable: false,
-      },
+
       navbar: {
         title: 'Home',
         logo: {
@@ -74,52 +69,71 @@ const config = {
           src: 'img/favicon.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'welcome',
-            position: 'left',
-            label: 'Docs',
-          },
-          {to: '/blog', label: 'Posts', position: 'left'},
-          {to: '/schedule', label: 'Schedule', position: 'left'},
-          {
-              label: 'About',
-              position: 'left',
-              type: 'dropdown',
-              items: [
-                  {
-                      label: 'About The Club',
-                      href: '/info',
-                  },
-                  {
-                      label: 'Officers',
-                      href: '/officers',
-                  },
-                  {
-                      label: 'About WWU Cybersecurity',
-                      href: 'https://www.wwu.edu/majors/cybersecurity'
-                  },
-              ],
-          },
-          {to: '/blog/tags/announcement', label: 'Announcements', position: 'right'},
+          // {
+          //   type: 'doc',
+          //   docId: 'welcome',
+          //   position: 'left',
+          //   label: 'Docs',
+          // },
+          {to: '/blog', label: 'Web Posts', position: 'left'},
+          {to: '/schedule', label: 'Meeting Schedule', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
+          // {
+          //     label: 'About',
+          //     position: 'left',
+          //     type: 'dropdown',
+          //     items: [
+          //         {
+          //             label: 'About The Club',
+          //             href: '/info',
+          //         },
+          //         {
+          //             label: 'Officers',
+          //             href: '/officers',
+          //         },
+          //         {
+          //             label: 'About WWU Cybersecurity',
+          //             href: 'https://www.wwu.edu/majors/cybersecurity'
+          //         },
+          //     ],
+          // },
+          {to: 'https://discord.com/channels/828483258089209866/828483258089209870', label: 'Announcements', position: 'right'},
           {to: '/achievements', label: 'Achievements', position: 'right'},
-          {to: '/contact', label: 'Contact Us', position: 'right'},
+          {to: '/contact', label: 'Contact', position: 'right'},
+          {to: '/join', label: 'Join', position: 'right'},
         ],
       },
       footer: {
         //commented out so override in custom.css works
         //style: 'dark',
         links: [
+          // {
+          //   title: 'Documentation',
+          //   items: [
+          //     {
+          //       label: 'Utility Cheat Sheets',
+          //       to: '/docs/cheatsheet/intro',
+          //     },
+          //     {
+          //       label: 'System Hardening Checklist',
+          //       to: '/docs/checklist/intro',
+          //     },
+          //   ],
+          // },
           {
-            title: 'Documentation',
+            title: 'Club Information',
             items: [
               {
-                label: 'Utility Cheat Sheets',
-                to: '/docs/cheatsheet/intro',
+                label: 'Get Involved',
+                href: '/join',
               },
               {
-                label: 'System Hardening Checklist',
-                to: '/docs/checklist/intro',
+                label: 'Contact Leadership',
+                href: '/leadership',
+              },
+              {
+                label: 'About the Club',
+                href: '/about',
               },
             ],
           },
@@ -127,12 +141,16 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Discord Server',
+                href: 'https://discord.com/invite/hXs2NgTYP5',
+              },
+              {
                 label: 'Western Involvement Network',
                 href: 'https://win.wwu.edu/organization/cyber',
               },
               {
-                label: 'Discord Server',
-                href: 'https://discord.com/invite/hXs2NgTYP5',
+                label: 'Related Clubs at WWU',
+                href: 'https://cs.wwu.edu/department-clubs',
               },
             ],
           },
@@ -156,10 +174,14 @@ const config = {
                 label: 'What is Cybersecurity?',
                 href: 'https://www.ibm.com/topics/cybersecurity',
               },
+              {
+                label: 'Why is Cybersecurity Important?',
+                href: 'https://www.upguard.com/blog/cybersecurity-important',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WWU Cybersecurity Club • Generated with <a href="https://docusaurus.io"> Docusaurus </a> • Last Built ${new Date().toJSON().slice(0,10).replace(/-/g,'.')} UTC`,
+        copyright: `Copyright © ${new Date().getFullYear()} WWU Cybersecurity Club • Last Updated ${new Date().toJSON().slice(0,10).replace(/-/g,'.')} UTC`,
       },
       prism: {
         theme: lightCodeTheme,

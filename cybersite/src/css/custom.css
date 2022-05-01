@@ -26,3 +26,29 @@ div.annoyingStickyBanner {
   font-size: 16px;
   color: #000000;
 }
+
+.discordframe {
+  margin: auto;
+  padding: 0px 32px 48px 32px; 
+  max-width: 1300px;
+}
+
+.fpcontainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fpbutton {
+  float:left;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 8px;
+}
+.fpbutton svg {
+  fill: #e64c3d;
+  padding-top: 4px;
+}
