@@ -42,13 +42,13 @@ div.annoyingStickyBanner {
 
 .fpbutton {
   float:left;
-  width: 52px;
+  width: 96px;
   height: 52px;
   background-color: white;
   border-radius: 10px;
   margin: 8px;
 }
 .fpbutton svg {
-  fill: #e64c3d;
+  fill: #003f87;
   padding-top: 4px;
 }
